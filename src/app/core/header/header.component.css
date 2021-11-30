@@ -1,0 +1,21 @@
+header{
+  background-color: #1e1e1e ;
+  height:80px;
+  display:grid;
+  align-items: center;
+}
+.containerHeader{
+  width: 70%;  
+  margin: 0 auto;
+  display:grid;
+
+}
+.logo{
+  display:grid;
+  justify-items: center;
+
+  
+}
+.slog{
+  width: 350px; 
+}

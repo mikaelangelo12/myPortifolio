@@ -4,6 +4,9 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
+import { PanelModule } from "primeng/panel";
+import { RippleModule } from "primeng/ripple";
+import { ButtonModule } from "primeng/button";
 
 @NgModule({
   declarations: [
@@ -13,7 +16,10 @@ import { CoreModule } from './core/core.module';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    CoreModule
+    CoreModule,
+    ButtonModule,
+    PanelModule,
+    RippleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
